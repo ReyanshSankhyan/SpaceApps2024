@@ -5,12 +5,12 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.set_page_config(page_title="Temperature Change visualiser")
+st.set_page_config(page_title="Climate change visualiser", page_icon='🌍')
 
-st.title("Temperature change visualisation: SDG 13")
+st.title("Climate change visualisation: SDG 13")
 st.markdown("""
-### Explore how climate has affected temperature in various parts of the world!
-Select a location and time range to visualize the changes in temperature over time.
+### Explore how climate has affected many parameters in various parts of the world!
+Select a location and time range to visualize the changes in these parameters over time.
 Real-world data provided by the Meteomatics API.
 """)
 
